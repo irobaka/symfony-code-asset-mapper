@@ -10,7 +10,7 @@
         "doctrine/doctrine-bundle": "^2.7",
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.12",
-        "knplabs/knp-time-bundle": "^1.18",
+        "knplabs/knp-time-bundle": "^v2.4.0",
         "pagerfanta/doctrine-orm-adapter": "^4.0",
         "pagerfanta/twig": "^4.0",
         "stof/doctrine-extensions-bundle": "^1.7",
@@ -87,6 +87,6 @@
         "symfony/maker-bundle": "^1.41",
         "symfony/stopwatch": "6.4.*",
         "symfony/web-profiler-bundle": "6.4.*",
-        "zenstruck/foundry": "^1.21"
+        "zenstruck/foundry": "^v2.9.2"
     }
 }
