@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.admin-wrapper {
+    padding: 0 3rem;
+}
