@@ -16,4 +16,7 @@ return [
         'path' => './assets/app.js',
         'entrypoint' => true,
     ],
+    'lodash/camelCase.js' => [
+        'version' => '4.18.1',
+    ],
 ];

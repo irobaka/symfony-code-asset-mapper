@@ -1,9 +1,7 @@
-/*
- * Welcome to your app's main JavaScript file!
- *
- * This file will be included onto the page via the importmap() Twig function,
- * which should already be in your base.html.twig.
- */
-// import './styles/app.css';
+import './styles/app.css';
 
-console.log('This log comes from assets/app.js - welcome to AssetMapper! 🎉');
+import Vinyl from "./lib/vinyl.js";
+import camelCase from 'lodash/camelCase.js';
+
+const mix = new Vinyl('Awesome Mix Vol. 1', 2014);
+console.log(camelCase(mix.describe()));
